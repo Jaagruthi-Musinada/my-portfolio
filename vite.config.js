@@ -1,7 +1,10 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+
+// Detect GitHub Pages environment
+const isGitHubPages = process.env.GITHUB_ACTIONS === "true";
 
 export default defineConfig({
   plugins: [react()],
-  base: process.env.VITE_BASE_PATH || "/",   // <--- IMPORTANT
+  base: isGitHubPages ? "/my-portfolio/" : "/",  // GitHub Pages vs Vercel
 });
