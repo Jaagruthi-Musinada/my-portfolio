@@ -1,0 +1,25 @@
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.card {
+  padding: 24px;
+  border-radius: 12px;
+  margin-top: 12px;
+  animation: fadeUp .6s ease forwards;
+}
+
+.cardTitle {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #7ab9ff; /* lavender highlight */
+}
+
+.text {
+  line-height: 1.6;
+  color: #dbe1ee;
+  font-size: 16px;
+}

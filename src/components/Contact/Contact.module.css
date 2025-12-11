@@ -1,0 +1,8 @@
+.contact { text-align:center; }
+.form { max-width:520px; margin:20px auto 0; display:flex; flex-direction:column; gap:12px; }
+input, textarea {
+  padding:12px; border-radius:8px; border:1px solid #222; background:#070708; color:#eaf4ff;
+}
+button {
+  padding:10px 16px; border-radius:10px; background:#7ab9ff; border:none; font-weight:700;
+}

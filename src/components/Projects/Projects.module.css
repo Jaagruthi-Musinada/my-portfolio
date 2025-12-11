@@ -1,0 +1,23 @@
+.projects { text-align:center; }
+.card {
+  background:#0b0b0c;
+  padding:18px;
+  border-radius:12px;
+  border:1px solid #222;
+  transition:transform .18s, box-shadow .18s;
+}
+.card:hover { transform:translateY(-6px); box-shadow:0 10px 30px rgba(18,41,60,0.3); border-color:#7ab9ff; }
+.grid {
+  margin-top:28px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:20px;
+}
+.tilt-card {
+  transition: transform 0.25s ease-out;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+
+/* card style moved to UiverseCard but we keep hover container style here if needed */

@@ -1,0 +1,49 @@
+/* From Uiverse.io by reglobby */
+.input {
+  border: 2px solid transparent;
+  width: 100%;
+  height: 2.8em;
+  padding-left: 0.8em;
+  outline: none;
+  overflow: hidden;
+  background-color: #F3F3F3;
+  border-radius: 10px;
+  transition: all 0.4s;
+  color: black;
+}
+
+.input::placeholder {
+  color: #7d7d7d;
+}
+
+.input:hover,
+.input:focus {
+  border: 2px solid #4A9DEC;
+  box-shadow: 0px 0px 0px 7px rgba(74, 157, 236, 0.20);
+  background-color: white;
+}
+
+/* message textarea same style but bigger */
+.textarea {
+  border: 2px solid transparent;
+  width: 100%;
+  height: 120px;
+  padding: 0.8em;
+  outline: none;
+  background-color: #F3F3F3;
+  border-radius: 10px;
+  transition: all 0.4s;
+  color: black;
+  resize: none;
+}
+
+.textarea::placeholder {
+  color: #7d7d7d;
+}
+
+.textarea:hover,
+.textarea:focus {
+  border: 2px solid #4A9DEC;
+  box-shadow: 0px 0px 0px 7px rgba(74, 157, 236, 0.20);
+  background-color: white;
+}

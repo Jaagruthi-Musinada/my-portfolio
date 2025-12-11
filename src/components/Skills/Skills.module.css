@@ -1,0 +1,4 @@
+.skills { text-align:center; }
+.grid { margin-top:20px; display:flex; flex-wrap:wrap; gap:12px; justify-content:center; }
+.card { padding:10px 16px; background:#121214; border:1px solid #222; border-radius:999px; color:#dfefff; font-weight:600; }
+.card:hover { transform:translateY(-6px); transition:.18s; border-color:#7ab9ff; }
